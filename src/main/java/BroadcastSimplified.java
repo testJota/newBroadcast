@@ -67,14 +67,7 @@ public class BroadcastSimplified{
 			e.printStackTrace();
 		}
 		
-		
-		try{
-			System.out.println(">>> Press ENTER to exit <<<");
-			System.in.read();
-		} catch(IOException ioe) {
-		} finally {
-			system.terminate();
-		}
+		system.terminate();
 	
 	}
 	
